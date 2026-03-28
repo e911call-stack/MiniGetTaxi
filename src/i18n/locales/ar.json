@@ -1,0 +1,190 @@
+{
+  "app": {
+    "name": "YellowWant.jo",
+    "tagline": "تاكسي أصفر في عمّان"
+  },
+  "landing": {
+    "hero": {
+      "title": "احجز تاكسيك بسهولة",
+      "subtitle": "الاتصال المباشر بسائقي التاكسي الأصفر المرخصين في عمّان"
+    },
+    "buttons": {
+      "requestTaxi": "أريد تاكسي",
+      "registerDriver": "سجل كسائق",
+      "login": "تسجيل الدخول"
+    },
+    "features": {
+      "title": "لماذا YellowWant؟",
+      "fast": {
+        "title": "سريع وسهل",
+        "description": "احجز تاكسي بخطوات بسيطة"
+      },
+      "safe": {
+        "title": "آمن وموثوق",
+        "description": "سائقون مرخصون ومعتمدون"
+      },
+      "transparent": {
+        "title": "شفاف",
+        "description": "اسعار واضحة بدون رسوم خفية"
+      }
+    },
+    "howItWorks": {
+      "title": "كيف يعمل؟",
+      "step1": "حدد موقعك",
+      "step2": "انتظر التاكسي",
+      "step3": "وصل بامان"
+    }
+  },
+  "passenger": {
+    "title": "طلب تاكسي",
+    "location": {
+      "title": "موقعك الحالي",
+      "selectLocation": "اختر موقعك على الخريطة",
+      "confirmLocation": "تاكيد الموقع"
+    },
+    "destination": {
+      "title": "وجهتك",
+      "placeholder": "ادخل عنوان الوجهة",
+      "selectOnMap": "اختر على الخريطة"
+    },
+    "options": {
+      "title": "الخيارات",
+      "digitalHide": {
+        "label": "إخفاء رقمي",
+        "description": "استخدام قناة مؤقتة للخصوصية"
+      },
+      "paymentMethod": {
+        "label": "طريقة الدفع",
+        "cash": "نقداً",
+        "card": "بطاقة"
+      }
+    },
+    "request": {
+      "button": "طلب التاكسي",
+      "searching": "جاري البحث عن تاكسي..."
+    },
+    "status": {
+      "waiting": "في الانتظار",
+      "accepted": "تم القبول",
+      "arriving": "التاكسي في الطريق",
+      "arrived": "التاكسي وصل",
+      "inProgress": "في الرحلة",
+      "completed": "تمت الرحلة"
+    },
+    "driver": {
+      "details": "معلومات السائق",
+      "name": "الاسم",
+      "plate": "رقم اللوحة",
+      "car": "السيارة",
+      "phone": "الهاتف",
+      "call": "اتصال",
+      "whatsapp": "واتساب"
+    },
+    "chat": {
+      "title": "الدردشة",
+      "locked": "الدردشة متاحة عند وصول السائق",
+      "placeholder": "اكتب رسالة...",
+      "send": "ارسال"
+    },
+    "cancel": {
+      "button": "الغاء الطلب",
+      "confirm": "هل انت متاكد من الالغاء؟"
+    }
+  },
+  "driver": {
+    "title": "لوحة السائق",
+    "status": {
+      "online": "متصل",
+      "offline": "غير متصل",
+      "busy": "مشغول"
+    },
+    "requests": {
+      "title": "الطلبات الجديدة",
+      "noRequests": "لا توجد طلبات حالياً",
+      "distance": "المسافة",
+      "pickup": "نقطة الانطلاق",
+      "destination": "الوجهة"
+    },
+    "actions": {
+      "accept": "قبول",
+      "reject": "رفض",
+      "navigate": "تصفح",
+      "imHere": "انا هنا",
+      "startTrip": "بداء الرحلة",
+      "endTrip": "انهاء الرحلة"
+    },
+    "passenger": {
+      "info": "معلومات الراكب",
+      "anonymous": "راكب مجهول",
+      "name": "الاسم",
+      "phone": "الهاتف",
+      "pickupLocation": "موقع الاستلام",
+      "dropOffLocation": "موقع الوصول"
+    },
+    "trip": {
+      "inProgress": "الرحلة جارية",
+      "completed": "تمت الرحلة بنجاح"
+    },
+    "earnings": {
+      "title": "الارباح",
+      "today": "اليوم",
+      "week": "الاسبوع",
+      "total": "الاجمالي"
+    }
+  },
+  "admin": {
+    "title": "لوحة الادارة",
+    "dashboard": {
+      "title": "لوحة التحكم",
+      "activeDrivers": "السائقين النشطين",
+      "pendingRequests": "الطلبات المعلقة",
+      "completedTrips": "الرحلات المكتملة",
+      "todayEarnings": "ارباح اليوم"
+    },
+    "drivers": {
+      "title": "السائقون",
+      "verify": "تاكيد",
+      "suspend": "ايقاف",
+      "viewDetails": "عرض التفاصيل"
+    },
+    "requests": {
+      "title": "الطلبات",
+      "all": "الكل",
+      "pending": "معلق",
+      "completed": "مكتمل",
+      "cancelled": "ملغي"
+    },
+    "reports": {
+      "title": "التقارير"
+    }
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطا",
+    "retry": "اعادة المحاولة",
+    "confirm": "تاكيد",
+    "cancel": "الغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "اغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "km": "كم",
+    "minutes": "دقيقة",
+    "currency": "دينار"
+  },
+  "errors": {
+    "locationNotFound": "لم يتم العثور على الموقع",
+    "noTaxisAvailable": "لا توجد تاكسي متاحة في هذه المنطقة",
+    "requestFailed": "فشل ارسال الطلب",
+    "connectionError": "خطا في الاتصال"
+  },
+  "whatsapp": {
+    "driverSignup": {
+      "title": "التسجيل كسائق",
+      "message": "مرحباً، اريد التسجيل كسائق في YellowWant.jo",
+      "placeholder": "رقم الواتساب"
+    }
+  }
+}

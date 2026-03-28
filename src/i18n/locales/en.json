@@ -1,0 +1,190 @@
+{
+  "app": {
+    "name": "YellowWant.jo",
+    "tagline": "Yellow Taxi in Amman"
+  },
+  "landing": {
+    "hero": {
+      "title": "Book Your Taxi Easily",
+      "subtitle": "Direct connection to licensed yellow taxi drivers in Amman"
+    },
+    "buttons": {
+      "requestTaxi": "I Want a Taxi",
+      "registerDriver": "Register as Driver",
+      "login": "Login"
+    },
+    "features": {
+      "title": "Why YellowWant?",
+      "fast": {
+        "title": "Fast & Easy",
+        "description": "Book a taxi in simple steps"
+      },
+      "safe": {
+        "title": "Safe & Reliable",
+        "description": "Licensed and verified drivers"
+      },
+      "transparent": {
+        "title": "Transparent",
+        "description": "Clear prices with no hidden fees"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works?",
+      "step1": "Set your location",
+      "step2": "Wait for the taxi",
+      "step3": "Arrive safely"
+    }
+  },
+  "passenger": {
+    "title": "Request Taxi",
+    "location": {
+      "title": "Your Current Location",
+      "selectLocation": "Select your location on the map",
+      "confirmLocation": "Confirm Location"
+    },
+    "destination": {
+      "title": "Your Destination",
+      "placeholder": "Enter destination address",
+      "selectOnMap": "Select on Map"
+    },
+    "options": {
+      "title": "Options",
+      "digitalHide": {
+        "label": "Digital Privacy",
+        "description": "Use temporary channel for privacy"
+      },
+      "paymentMethod": {
+        "label": "Payment Method",
+        "cash": "Cash",
+        "card": "Card"
+      }
+    },
+    "request": {
+      "button": "Request Taxi",
+      "searching": "Searching for taxis..."
+    },
+    "status": {
+      "waiting": "Waiting",
+      "accepted": "Accepted",
+      "arriving": "Taxi on the way",
+      "arrived": "Taxi arrived",
+      "inProgress": "In transit",
+      "completed": "Trip completed"
+    },
+    "driver": {
+      "details": "Driver Information",
+      "name": "Name",
+      "plate": "Plate Number",
+      "car": "Car",
+      "phone": "Phone",
+      "call": "Call",
+      "whatsapp": "WhatsApp"
+    },
+    "chat": {
+      "title": "Chat",
+      "locked": "Chat available when driver arrives",
+      "placeholder": "Type a message...",
+      "send": "Send"
+    },
+    "cancel": {
+      "button": "Cancel Request",
+      "confirm": "Are you sure you want to cancel?"
+    }
+  },
+  "driver": {
+    "title": "Driver Dashboard",
+    "status": {
+      "online": "Online",
+      "offline": "Offline",
+      "busy": "Busy"
+    },
+    "requests": {
+      "title": "New Requests",
+      "noRequests": "No requests currently",
+      "distance": "Distance",
+      "pickup": "Pickup Point",
+      "destination": "Destination"
+    },
+    "actions": {
+      "accept": "Accept",
+      "reject": "Reject",
+      "navigate": "Navigate",
+      "imHere": "I'm Here",
+      "startTrip": "Start Trip",
+      "endTrip": "End Trip"
+    },
+    "passenger": {
+      "info": "Passenger Information",
+      "anonymous": "Anonymous Passenger",
+      "name": "Name",
+      "phone": "Phone",
+      "pickupLocation": "Pickup Location",
+      "dropOffLocation": "Drop-off Location"
+    },
+    "trip": {
+      "inProgress": "Trip in progress",
+      "completed": "Trip completed successfully"
+    },
+    "earnings": {
+      "title": "Earnings",
+      "today": "Today",
+      "week": "Week",
+      "total": "Total"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": {
+      "title": "Dashboard",
+      "activeDrivers": "Active Drivers",
+      "pendingRequests": "Pending Requests",
+      "completedTrips": "Completed Trips",
+      "todayEarnings": "Today's Earnings"
+    },
+    "drivers": {
+      "title": "Drivers",
+      "verify": "Verify",
+      "suspend": "Suspend",
+      "viewDetails": "View Details"
+    },
+    "requests": {
+      "title": "Requests",
+      "all": "All",
+      "pending": "Pending",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "reports": {
+      "title": "Reports"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "km": "km",
+    "minutes": "min",
+    "currency": "JOD"
+  },
+  "errors": {
+    "locationNotFound": "Location not found",
+    "noTaxisAvailable": "No taxis available in this area",
+    "requestFailed": "Failed to send request",
+    "connectionError": "Connection error"
+  },
+  "whatsapp": {
+    "driverSignup": {
+      "title": "Register as Driver",
+      "message": "Hello, I want to register as a driver on YellowWant.jo",
+      "placeholder": "WhatsApp number"
+    }
+  }
+}

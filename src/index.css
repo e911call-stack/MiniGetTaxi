@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --jordan-yellow: #FFD700;
+  --jordan-yellow-dark: #E6C200;
+  --jordan-black: #1A1A1A;
+  --jordan-gray: #333333;
+}
+
+body {
+  @apply bg-jordan-black text-white font-arabic;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+html[dir="rtl"] {
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+html[dir="ltr"] {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for Jordan theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--jordan-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--jordan-yellow);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--jordan-yellow-dark);
+}
+
+/* Leaflet map container */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+/* Taxi marker pulse animation */
+@keyframes taxi-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.taxi-marker-pulse {
+  animation: taxi-pulse 2s ease-in-out infinite;
+}
+
+/* Smooth transitions */
+* {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* RTL support utilities */
+.rtl-flip {
+  transform: scaleX(-1);
+}
